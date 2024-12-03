@@ -24,7 +24,7 @@ const Projects: Project[] = [
   {
     title: "Currency Converter",
     description: "A simple and responsive currency converter built with HTML, CSS, and JavaScript, allowing users to convert currencies using real-time exchange rates.",
-    image: "/images/calculator.jpg",
+    image: "/images/calculator.JPG",
     link: "https://currency-converter-project-nine.vercel.app/", // Empty link to be handled
     tech: [
       { id: "react-portfolio", icon: <FaReact /> },
@@ -35,7 +35,7 @@ const Projects: Project[] = [
   {
     title: "Dynamic Resume Builder",
     description: "A dynamic resume builder created using HTML, CSS, and TypeScript. This tool allows users to input their details, customize sections, and generate a personalized resume. ",
-    image: "/images/dynamic.jpg",
+    image: "/images/dynamic.JPG",
     link: "https://dynamic-resume-builder-gilt.vercel.app/", // Valid link
     tech: [
       { id: "html5-dynamic", icon: <FaHtml5 /> },
@@ -46,7 +46,7 @@ const Projects: Project[] = [
   {
     title: "Simple Calculator",
     description: "A basic calculator built with HTML, CSS, and JavaScript that performs arithmetic operations like addition, subtraction, multiplication, and division. ",
-    image: "/images/simple.jpg",
+    image: "/images/simple.JPG",
     link: "https://simple-calculator-ten-wheat.vercel.app/", // Valid link
     tech: [
       { id: "html5-dynamic", icon: <FaHtml5 /> },

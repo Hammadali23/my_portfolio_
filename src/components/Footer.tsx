@@ -43,15 +43,15 @@ export default function Footer() {
             aria-label={label}
           >
             <button
-              className="text-white hover:text-yellow-400 hover:scale-110 transition-all duration-300 ease-in-out text-2xl"
+              className="text-white hover:text-cyan-400 hover:scale-125 transition-all duration-300 ease-in-out text-3xl"
             >
               {icon}
             </button>
           </Link>
         ))}
       </div>
-      <p className="text-center mt-2     text-md">
-            Your support fuels my creativity. Let  stay connected!
+      <p className="text-center mt-2 text-md">
+            Your support fuels my creativity. Let stay connected!
      </p>
     </footer>
   );
