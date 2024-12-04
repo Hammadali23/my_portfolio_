@@ -53,11 +53,11 @@ const Navbar = () => {
             isOpen ? "block" : "hidden"
           } lg:flex lg:space-x-8 absolute lg:static top-16 lg:top-auto left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent`}
         >
-          <ul className="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-8 p-4 lg:p-0">
+          <ul className="flex flex-col lg:flex-row lg:items-center text-xl space-y-4 lg:space-y-0 lg:space-x-8 p-4 lg:p-0">
             <li>
               <Link
                 href="/"
-                 className="text-white relative hover:text-cyan-300 hover:shadow-lg hover:shadow-cyan-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[''] after:block after:h-0.5 after:w-0 after:bg-cyan-400 hover:after:w-full after:transition-all after:duration-300"
+                 className="text-white  relative hover:text-cyan-300 hover:shadow-lg hover:shadow-cyan-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[''] after:block after:h-0.5 after:w-0 after:bg-cyan-400 hover:after:w-full after:transition-all after:duration-300"
                 onClick={handleLinkClick}
               >
                 Home

@@ -17,7 +17,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="bg-gradient-to-r from-gray-950  to-gray-800 min-h-screen flex justify-center">
+    <div className="bg-gradient-to-r from-gray-950  to-gray-800  min-h-screen flex justify-center">
       <div className="container mx-auto p-6">
         <h2 className="text-5xl font-bold mb-8 mt-24 text-cyan-300 text-center animate-scale-up-down underline">
           Skills
