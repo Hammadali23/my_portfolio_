@@ -57,7 +57,7 @@ const Projects: Project[] = [
   {
     title: "Periodic Table",
     description: "A static periodic table built with HTML and CSS, displaying chemical elements with their symbols and atomic numbers.",
-    image: "/images/periodic",
+    image: "/images/periodic.png",
     link: "https://periodic-table-iota-seven.vercel.app/", 
     tech: [
       { id: "html5-editable", icon: <FaHtml5 /> },
@@ -69,9 +69,9 @@ const Projects: Project[] = [
 
 export default function ProjectsSection() {
   return (
-    <div className="bg-slate-600 min-h-screen flex flex-col items-center py-12 px-4">
+    <div className="bg-gradient-to-r from-gray-950  to-gray-800 min-h-screen flex flex-col items-center py-12 px-4">
       <div className="max-w-4xl w-full">
-        <h1 className="text-4xl font-bold text-center mt-12 mb-8 underline text-cyan-300 animate-scale-up-down">
+        <h1 className="text-4xl font-bold text-center mt-12 mb-12 underline text-cyan-300 animate-scale-up-down">
           My Projects
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-slide-in">
