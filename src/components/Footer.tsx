@@ -4,7 +4,7 @@ export default function Footer() {
   const socialLinks = [
     {
       href: "https://www.linkedin.com/in/hammad-ali-952480300/",
-      icon: <img src="/images/linkedien.png" alt="ali" width={35}  className="rounded-full" />,
+      icon: <img src="/images/linkedien.png" alt="linkdein" width={35} height={30}  className="rounded-full" />,
       label: "LinkedIn",
     },
     {
