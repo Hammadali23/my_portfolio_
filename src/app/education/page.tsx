@@ -7,16 +7,16 @@ export default function Education() {
         </h1>
         <div className="container mx-auto p-8 animate-slide-in ">
           <h2 className="text-3xl font-semibold mb-4 text-yellow-400 font-serif ">Matric Education</h2>
-          <div className="p-4  rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4">
-            <h3 className="text-2xl font-bold text-blue-400 ">Subject: Science</h3>
-            <h3 className="text-xl font-bold mt-2 text-blue-400">School Name:</h3>
+          <div className="p-4  rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4 bg-gradient-to-r from-gray-800  to-cyan-800">
+            <h3 className="text-2xl font-bold text-blue-400 underline ">Subject: Science</h3>
+            <h4 className="text-xl font-bold mt-2 text-blue-400 underline">School Name:</h4>
             <p className="text-xl mt-2 text-white font-serif">Hazrat Shah Jahnagir Academy. (Year: 2020)</p>
           </div>
           <div className="container mx-auto mt-8">
             <h2 className="text-3xl font-semibold mb-4 text-yellow-400 font-serif">Intermediate Education</h2>
-            <div className="p-4  rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4">
-              <h3 className="text-2xl font-bold text-blue-400">Subject: Pre-Engineering</h3>
-              <h3 className="text-xl font-bold mt-2 text-blue-400">College Name:</h3>
+            <div className="p-4  rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4 bg-gradient-to-r from-gray-800  to-cyan-800">
+              <h3 className="text-2xl font-bold text-blue-400 underline">Subject: Pre-Engineering</h3>
+              <h3 className="text-xl font-bold mt-2 text-blue-400 underline">College Name:</h3>
               <p className="text-xl text-white mt-2 font-serif">Allama Iqbal Government Science College. (Year: 2022)</p>
             </div>
 
@@ -24,9 +24,9 @@ export default function Education() {
             <h1 className="text-4xl font-bold text-center mt-16 pb-8 underline text-cyan-400 animate-scale-up-down">
               Courses
             </h1>
-            <div className="container mx-auto mt-8">
+            <div className="container mx-auto mt-8 ">
               <h2 className="text-3xl font-semibold mb-4 text-yellow-400 font-serif">Web Development (In Progress)</h2>
-              <div className="p-4  rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4">
+              <div className="p-4  rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4 bg-gradient-to-r from-gray-800  to-cyan-800">
                 <h3 className="text-2xl font-bold  text-blue-400 underline">Course Name:</h3>
                 <p className="text-xl text-white mt-2 font-serif">Certified AI, Metaverse, and Web 3.0 Developer & Solopreneur</p>
                 <h3 className="text-2xl mt-4 font-bold text-blue-400 underline">Center Name:</h3>
@@ -36,7 +36,7 @@ export default function Education() {
               </div>
               <div className="container mx-auto mt-8">
                 <h2 className="text-3xl font-semibold mb-4 text-yellow-400 font-serif">Computer Information Technology</h2>
-                <div className="p-4 rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4">
+                <div className="p-4 rounded shadow-md bg-gray-800 border-l-8 border-cyan-400 pl-4 bg-gradient-to-r from-gray-800  to-cyan-800">
                   <h3 className="text-2xl font-bold text-blue-400 underline">Center Name:</h3>
                   <p className="text-xl mt-2 font-serif text-white">The Professor Academy</p>
                   <h3 className="text-2xl mt-4 font-bold text-blue-400 underline">Course Including:</h3>
@@ -48,7 +48,7 @@ export default function Education() {
                 </div>
                 <div className="container mx-auto mt-8">
                   <h2 className="text-3xl  font-semibold mb-4 text-yellow-400 font-serif">Digital Marketing</h2>
-                  <div className="p-4 bg-gray-800 rounded shadow-md border-l-8 border-cyan-400 pl-4">
+                  <div className="p-4 bg-gray-800 rounded shadow-md border-l-8 border-cyan-400 pl-4 bg-gradient-to-r from-gray-800  to-cyan-800">
                     <h3 className="text-2xl font-bold text-blue-400 mb-2 underline">Center Name:</h3>
                     <p className="text-xl font-serif text-white">Aptech Metro</p>
                     <h3 className="text-2xl font-bold text-blue-400 mb-2 mt-4 underline">Course Including:</h3>

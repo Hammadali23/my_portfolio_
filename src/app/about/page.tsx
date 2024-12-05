@@ -6,7 +6,7 @@ export default function About() {
           About Me
         </h1>
         
-        <div className="bg-slate-700 shadow-xl shadow-background px-4 py-8 animate-slide-in rounded-xl  ">
+        <div className="bg-gradient-to-r from-gray-800  to-cyan-800 mt-8 shadow-2xl border-l-8 border-cyan-600 px-4 py-8 animate-slide-in rounded-xl  ">
           <h2 className="text-3xl font-semibold  mb-2 text-blue-400">Introduction</h2>
           <p className="text-xl leading-relaxed mb-4 text-white">
             I am a frontend developer passionate about creating beautiful, user-friendly, and responsive websites. My journey in web development started with a curiosity about how websites work, which soon evolved into a full-fledged career.

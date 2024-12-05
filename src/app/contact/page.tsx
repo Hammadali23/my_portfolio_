@@ -12,16 +12,16 @@ export default function Contact() {
       </h1>
 
       {/* Grid Section */}
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-6 mt-14 border-l-8 border-red-700">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-6 mt-14 ">
         {/* Left Section */}
-        <div className="bg-blue-200 shadow-md p-6 rounded-lg ">
+        <div className="bg-blue-200 shadow-md p-6 rounded-lg border-l-8 border-cyan-500 ">
           <div className="space-y-6">
             {/* Phone */}
             <div className="flex items-center space-x-4">
               <span className="text-3xl text-blue-900">📞</span>
               <div>
-                <h2 className="font-bold text-lg">Phone Number</h2>
-                <p className="text-gray-600">+92 3257059641</p>
+                <h2 className="font-bold text-lg text-blue-900">Phone Number</h2>
+                <p className="text-black text-lg">+92 3257059641</p>
               </div>
             </div>
 
@@ -29,17 +29,17 @@ export default function Contact() {
             <div className="flex items-center space-x-4">
               <span className="text-3xl text-blue-900">✉️</span>
               <div>
-                <h2 className="font-bold text-lg">Email</h2>
-                <p className="text-gray-600">malik.hammad.ali78@gmail.com</p>
+                <h2 className="font-bold text-lg  text-blue-900">Email</h2>
+                <p className="text-black text-lg">malik.hammad.ali78@gmail.com</p>
               </div>
             </div>
 
             {/* Location */}
-            <div className="flex items-center space-x-4 ml-2">
+            <div className="flex items-center space-x-4 lg:ml-2">
               <span className="text-3xl text-blue-900">📍</span>
               <div>
-                <h2 className="font-bold text-lg ml-2">Location</h2>
-                <p className="text-black ml-2">
+                <h2 className="font-bold text-lg lg:ml-2  text-blue-900">Location</h2>
+                <p className="text-black lg:ml-2 text-lg">
                  RKV 555 model colony, Karachi 
                 </p>
               </div>
@@ -49,16 +49,16 @@ export default function Contact() {
             <div className="flex items-center space-x-4">
               <span className="text-3xl text-blue-900">⏰</span>
               <div>
-                <h2 className="font-bold text-lg">Working Hours</h2>
-                <p className="text-gray-600">Monday to Saturday</p>
-                <p className="text-gray-600">09:00 AM to 06:00 PM</p>
+                <h2 className="font-bold text-lg  text-blue-900">Working Hours</h2>
+                <p className="text-black text-lg">Monday to Saturday</p>
+                <p className="text-black text-lg">09:00 AM to 06:00 PM</p>
               </div>
             </div>
           </div>
         </div>
 
         {/* Right Section */}
-        <div className="bg-blue-200  border-l-8 border-red-700 shadow-md p-6 rounded-lg">
+        <div className="bg-blue-200 shadow-md p-6 rounded-lg border-l-8 border-cyan-500">
           <h2 className="font-bold text-3xl text-blue-900 mb-4">Contact Us</h2>
           <form className="space-y-4">
             {/* First and Last Name */}

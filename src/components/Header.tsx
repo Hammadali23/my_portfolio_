@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white fixed top-0 left-0 w-full z-20">
-      <div className="container mx-auto flex items-center justify-between p-4">
+    <nav className="bg-gray-800 text-white fixed top-0 left-0 w-full z-20 ">
+      <div className="container mx-auto flex  justify-between p-4">
         
         <div className="text-2xl font-bold hover:text-yellow-400 hover:scale-110 transition-all duration-300 ease-in-out  ">
           <Link href="/">My Portfolio</Link>
@@ -51,9 +51,9 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:space-x-8 absolute lg:static top-16 lg:top-auto left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent`}
+          } lg:flex lg:space-x-8 absolute lg:static top-16 lg:top-auto left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent `}
         >
-          <ul className="flex flex-col lg:flex-row lg:items-center text-xl space-y-4 lg:space-y-0 lg:space-x-8 p-4 lg:p-0">
+          <ul className=" flex flex-col lg:flex-row lg:items-center text-xl space-y-4 lg:space-y-0 lg:space-x-8 p-4 lg:p-0">
             <li>
               <Link
                 href="/"
