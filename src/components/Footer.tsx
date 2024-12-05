@@ -9,7 +9,7 @@ export default function Footer() {
     },
     {
       href: "https://github.com/Hammadali23",
-      icon: <img src="/images/github.png" alt="ali" width={35}  className="rounded-full" />,
+      icon: <img src="/images/github.png" alt="ali" width={35} height={30} className="rounded-full" />,
       label: "GitHub",
     },
     {
