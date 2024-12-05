@@ -1,31 +1,30 @@
-import { FaLinkedin, FaGithub, FaInstagram, FaFacebookSquare, FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
 
 export default function Footer() {
   const socialLinks = [
     {
       href: "https://www.linkedin.com/in/hammad-ali-952480300/",
-      icon: <FaLinkedin />,
+      icon: <img src="/images/linkedien.png" alt="ali" width={35}  className="rounded-full" />,
       label: "LinkedIn",
     },
     {
       href: "https://github.com/Hammadali23",
-      icon: <FaGithub />,
+      icon: <img src="/images/github.png" alt="ali" width={35}  className="rounded-full" />,
       label: "GitHub",
     },
     {
       href: "https://www.instagram.com/ham_mad_alii.99/",
-      icon: <FaInstagram />,
+      icon: <img src="/images/insta.jpeg" alt="ali" width={35}  className="rounded-full" />,
       label: "Instagram",
     },
     {
       href: "https://www.facebook.com/profile.php?id=61558486799317",
-      icon: <FaFacebookSquare />, 
+      icon: <img src="/images/facebook.png" alt="ali" width={35} className="rounded-full"  />,
       label: "Facebook",
     },
     {
       href: "mailto:malik.hammad.ali78@gmail.com",
-      icon: <FaEnvelope />,
+      icon: <img src="/images/gmail.png" alt="ali" width={35} />,
       label: "Email",
     },
   ];

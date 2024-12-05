@@ -88,7 +88,7 @@ export default function ProjectsSection() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
-                <h2 className="text-lg font-bold text-cyan-300">{project.title}</h2>
+                <h2 className="text-lg font-bold font-serif text-green-400">{project.title}</h2>
                 <p className="text-gray-400 text-sm my-2">{project.description}</p>
                 <div className="flex space-x-2 mb-4">
                   {project.tech.map((techIcon) => (
@@ -102,7 +102,7 @@ export default function ProjectsSection() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-cyan-500 hover:underline"
+                    className="font-serif text-lg text-green-400 hover:underline  "
                   >
                     View Project
                   </a>
