@@ -51,7 +51,7 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:space-x-8 absolute lg:static top-16 lg:top-auto left-0 w-full lg:w-auto bg-gray-800 lg:bg-transparent `}
+          } lg:flex lg:space-x-8 absolute lg:static top-16 lg:top-auto left-0 w-full  lg:w-auto bg-gray-800 lg:bg-transparent `}
         >
           <ul className=" flex flex-col lg:flex-row lg:items-center text-xl space-y-4 lg:space-y-0 lg:space-x-8 p-4 lg:p-0">
             <li>

@@ -55,7 +55,6 @@ body {
 
 .marquee-left {
   display: inline-block;
-  white-space: nowrap;
   animation: slideInfiniteLeftToRight 10s linear infinite;
 }
 

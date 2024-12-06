@@ -78,7 +78,7 @@ export default function ProjectsSection() {
           {Projects.map((project, index) => (
             <div
               key={index}
-              className="bg-slate-800 rounded-lg shadow-md overflow-hidden hover:scale-105 transition transform duration-300"
+              className="bg-gradient-to-r from-gray-800  to-cyan-800 rounded-lg shadow-md overflow-hidden hover:scale-105 transition transform duration-300"
             >
               <Image
                 src={project.image}
@@ -89,7 +89,7 @@ export default function ProjectsSection() {
               />
               <div className="p-4">
                 <h2 className="text-lg font-bold font-serif text-green-400">{project.title}</h2>
-                <p className="text-gray-400 text-sm my-2">{project.description}</p>
+                <p className="text-white text-sm my-2">{project.description}</p>
                 <div className="flex space-x-2 mb-4">
                   {project.tech.map((techIcon) => (
                     <span key={techIcon.id} className="text-cyan-400 text-xl">

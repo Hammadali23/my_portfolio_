@@ -26,7 +26,7 @@ export default function Skills() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="p-4  text-3xl  flex items-center space-x-3 bg-blue-200 dark:bg-gray-900  shadow-md animate-slide-in rounded-xl font-serif"
+              className="p-4  text-3xl  flex items-center space-x-3 text-white bg-gradient-to-r from-gray-800  to-cyan-800  shadow-md animate-slide-in rounded-xl font-serif"
             >
               <span className="text-red-600  ">{skill.icon}</span>
               <span>{skill.name}</span>
