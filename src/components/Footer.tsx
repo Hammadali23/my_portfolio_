@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 export default function Footer() {
   const socialLinks = [
     {
@@ -30,7 +29,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-800 text-white py-5 border-t-2 border-cyan-500">
+    <footer className="bg-gray-800 text-white py-5">
       <div className="flex justify-center gap-6">
         {socialLinks.map(({ href, icon, label }) => (
           <Link
